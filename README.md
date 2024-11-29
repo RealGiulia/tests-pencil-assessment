@@ -84,7 +84,10 @@ Logs are generated in the folder specified in the config.ini file. This helps in
 
  - Bonus Assignment: Creates a new space, adds a text box, types text, italicizes it, and confirms the changes.
 
+ - The steps tested are: Login into webpage, create a new Space and manipulate canvas to generate a text box,
+ insert the word "test", select "Italicize" option, and setup textbox clicking outside it.
+
  - A test file was created to test the functionalities of the bonus assessment. You can find the tests at file 
  **bonus_tester.py**
 
- - A function to execute the steps indicated at bonus assessment was implemented at _web_handler.py_ file.
+ - A function named *_bonus_assignment_* to execute the steps indicated at bonus assessment was implemented at _web_handler.py_ file.
